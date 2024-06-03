@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/635/825/non_2x/abstract-square-interface-modern-background-concept-fingerprint-digital-scanning-visual-security-system-authentication-login-vector.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.protocols-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.protocol-card {
+    text-decoration: none;
+    color: inherit;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.protocol-card:hover {
+    transform: scale(1.05);
+}
+
+.protocol-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.protocol-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+}
